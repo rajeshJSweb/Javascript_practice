@@ -1,9 +1,11 @@
-const recursive=(number)=>{
+const recursionFunc =(number)=>{
     console.log(number);
-    const newNumber = number - 1
+    const newNumber = number -1;
+
     if(newNumber>0){
-        recursive(newNumber)
+        recursionFunc(newNumber)
     }
+    
 }
 
-recursive(5)
+recursionFunc(5)

@@ -1,13 +1,14 @@
-const firstName = 'Rajehs'
-const lastName = "Khoksi"
-
-const returnFunction =()=>{
-    
-    if(firstName==='Rajehs'){
-        return lastName;
+const evenNumber = (arr)=>{
+   
+    for(let i=0; i<arr.length; i++){
+        const checkEven= arr[i]
+       if(checkEven%2!==0){
+        const evenNumber =checkEven
+        console.log(evenNumber)
+       }
     }
-    console.log(firstName)
 }
 
-const name=returnFunction();
-console.log(name);
+const number = [10,13,15,6,14,12,19,17]
+
+evenNumber(number)
